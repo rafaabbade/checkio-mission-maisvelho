@@ -12,15 +12,15 @@ TESTS = {
     "Basics": [
         {
             "input": [2,3,4],
-            "answer": 4
+            "answer": "O irmão mais velho tem 4 anos"
         },
         {
             "input": [1,5,3],
-            "answer": 5
+            "answer": "O irmão mais velho tem 5 anos"
         },
         {
             "input": [7,2,3],
-            "answer": 7
+            "answer": "O irmão mais velho tem 7 anos"
         }
     ]
 }
