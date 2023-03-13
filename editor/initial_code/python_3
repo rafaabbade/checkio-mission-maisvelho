@@ -1,19 +1,15 @@
-def soma(a,b):
+def irmao_mais_velho(a,b,c):
     # escreva aqui seu código
     return None
 
 
 print("Example:")
-print(soma(3,2))
+print(irmao_mais_velho(12,8,7))
 
 # As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
-# testa a função com números positivos como parâmetros
-assert soma(2, 3) == 5 
-    
-# testa a função com um número negativo como parâmetro
-assert soma(-1, 5) == 4
-    
-# testa a função com zero como parâmetro
-assert soma(0, 0) == 0
+
+assert irmao_mais_velho(20, 22, 18) == "O irmão mais velho tem 22 anos" 
+assert irmao_mais_velho(30, 25, 35) == "O irmão mais velho tem 35 anos" 
+assert irmao_mais_velho(30, 20, 22) == "O irmão mais velho tem 30 anos"
     
 print("Seu código passou pelos testes, clique em Check para avançar!")
