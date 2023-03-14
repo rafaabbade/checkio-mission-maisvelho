@@ -7,37 +7,62 @@
     </div>
     <div class="answer">
         <p>
-            Primeiro devemos entender o que está no nosso compilador. Veja a imagem abaixo:
+            Dê uma olhada nos problemas anteriores que você resolveu utilizando condicionais, como o "É par?" e o "Positivo, negativo ou zero"
         </p>
      </div>
 </div>
 <div class="question-answer">
     <div class="question">
         <p>
-            Ok, mas onde eu devo programar?
+            Não me lembro da sintaxe do if-else...
         </p>
     </div>
     <div class="answer">
         <p>
-            Escreva seu comentário no comentário logo embaixo da definição da função soma
+            Então lá vai um exemplo:
         </p>
+         <pre class="brush: python">
+if temperatura > 30:
+    print("Está calor")
+elif temperatura < 15:
+    print("Está frio")
+else:
+    print("Está agradável")
+        </pre>
           
      </div>
 </div>
 <div class="question-answer">
     <div class="question">
         <p>
-            Posso criar uma variável para me ajudar?
+            Meu código está ficando muito grande, tem como eu diminuí-lo?
         </p>
     </div>
     <div class="answer">
         <p>
-            Sim, uma das formas de resolver é atribuir/armazenar o valor da operação a+b numa variável nova.
+            Sim, podemos usar os operadores lógicos para utilizar mais de uma expressão booleana. São eles:
+            <ul>
+                <li> and - retorna verdadeiro apenas se as duas expressões forem verdadeiras</li>
+                <li> or - retorna verdadeiro se pelo menos uma das expressões for verdadeira</li>
+                <li> not - inverte o valor booleano, se for True vira False e vice versa</li> 
+            </ul>
         </p>
-        
+     </div>
+</div>
+<div class="question-answer">
+    <div class="question">
         <p>
-            Só não se esqueça de retornar o valor desta variável!
+            E como posso usá-lo?
         </p>
+    </div>
+    <div class="answer">
+        <p>
+            Vou dar um exemplo do uso do and:
+        </p>
+         <pre class="brush: python">
+if temperatura < 30 and temperatura > 15:
+    print("Está agradável")
+        </pre>
           
      </div>
 </div>
